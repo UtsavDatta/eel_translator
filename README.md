@@ -20,3 +20,6 @@ pip install googletrans
 
 ### The User Interface 
 ![UI picture](/examplepic.jpeg)
+
+###### Current version supports 6 languages:
+Italian, Arabic, Spanish, Portuguese, French and English 
