@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        Eel Translator 
+    </title>
+    <link rel="stylesheet" href=./style.css type="text/css">
+    <script type="text/javascript" src="/eel.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    
+</head>
+
+<body>
+    <header>
+        <div class="main">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <form>
+        <textarea wrap="soft" placeholder="INPUT Text" rows="12" id="data" class="txt1"></textarea>
+        <textarea wrap="soft" placeholder="TRANSLATED Text" rows="12" id="output" class="txt2"></textarea>
+
+    </form>
+    <div class="button">
+        <button class="button1" onclick="inputdata()">TRANSLATE</button>
+       
+    </div>
+    <div class="box">
+        <select id="source">
+            <option>it</option>
+            <option>ar</option>
+            <option>es</option>
+            <option>pt</option>
+            <option>fr</option>
+            <option>en</option>
+        </select>
+    </div>
+
+    <div class="box2">
+        <select id="destination">
+            <option>it</option>
+            <option>ar</option>
+            <option>es</option>
+            <option>pt</option>
+            <option>fr</option>
+            <option>en</option>
+        </select>
+    </div>
+    
+</body>
+
+</html>
